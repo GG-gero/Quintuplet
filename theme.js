@@ -3,7 +3,7 @@ function getTheme() {
     // If no color_scheme is set it should return "" which evaluates to false in JS
     return Spicetify?.Config?.color_scheme || DEFAULT_THEME;
 }
-const likedSongsImageSelector = 'img[src="https://misc.scdn.co/liked-songs/liked-songs-300.jpg"]';
+const likedSongsImageSelector = 'img[src="https://misc.scdn.co/liked-songs/liked-songs-300.png"]';
 
 /**
  * @param {(els: HTMLElement[]) => void} func 
